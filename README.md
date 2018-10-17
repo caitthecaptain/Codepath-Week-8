@@ -1,4 +1,4 @@
-# Project 8 - Pentesting Live Targets
+# Week 8 - Pentesting Live Targets
 
 Time spent: **7** hours spent in total
 
