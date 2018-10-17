@@ -19,7 +19,7 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 **Vulnerability #1: SQL Injection (SQLi)**
 - With this vulnerability, a user must simply be logged in and on the "Find a Salesperson" page.
 - Click on any user, and you will see that each one has a number associated with them.
-- Enter " ' OR SLEEP(5)=0--' " after the .php session id instead of the number of the salesperson. 
+- Enter the SQLi [ ' OR SLEEP(5)=0--' ] after the .php session id instead of the number of the salesperson. 
 - You can change the 5 to however many seconds you would like for it to take the page to refresh.
 ![](https://github.com/caitthecaptain/Codepath-Week-8/blob/master/sqlinjection.gif)
 
