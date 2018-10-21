@@ -36,16 +36,31 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Green
 
-Vulnerability #1: __________________
+**Vulnerability #1: Cross-Site Scripting (XSS)**
+- With this vulnerability, any user can easily create an XSS using: <script>alert("write whatever you want")</script> , because the site does not properly check for <script> tags.
+- Log in on one browser, go to the "contact us" page, enter a name/email/XSS. Submit.
+- Go to the other browser, click "log in," then click on "Feedback." The XSS will execute.
+![](https://github.com/caitthecaptain/Codepath-Week-8/blob/master/xss.gif)
 
-Vulnerability #2: __________________
+**Vulnerability #2: Username Enumeration**
+- 
+![]()
+
 
 
 ## Red
 
-Vulnerability #1: __________________
+**Vulnerability #1: Cross-Site Request Forgery (CSRF)**- 
+- 
+![]()
 
-Vulnerability #2: __________________
+
+
+**Vulnerability #2: Insecure Direct Object Reference (IDOR)**
+- 
+![]()
+
+
 
 
 ## Notes
