@@ -5,12 +5,12 @@ Time spent: **7** hours spent in total
 > Objective: Identify vulnerabilities in three different versions of the Globitek website: blue, green, and red.
 
 The six possible exploits are:
-* Username Enumeration
+* **Username Enumeration
 * Insecure Direct Object Reference (IDOR)
 * SQL Injection (SQLi)
 * Cross-Site Scripting (XSS)
 * Cross-Site Request Forgery (CSRF)
-* Session Hijacking/Fixation
+* Session Hijacking/Fixation**
 
 Each version of the site has been given two of the six vulnerabilities. (In other words, all six of the exploits should be assignable to one of the sites.)
 
@@ -22,7 +22,6 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 - Enter the SQLi [ ' OR SLEEP(5)=0--' ] after the .php session id instead of the number of the salesperson. 
 - You can change the 5 to however many seconds you would like for it to take the page to refresh.
 ![](https://github.com/caitthecaptain/Codepath-Week-8/blob/master/sqlinjection.gif)
-
 
 
 **Vulnerability #2: Session Hijacking/ Fixation**
@@ -43,8 +42,10 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 ![](https://github.com/caitthecaptain/Codepath-Week-8/blob/master/xss.gif)
 
 **Vulnerability #2: Username Enumeration**
-- 
-![]()
+- With this vulnerability, anyone can easily see whether or not a username exists.
+- If the username does not exist, a message will appear that says, "Log in was Unsuccessful."
+- However, if the username **DOES** exist, a message will appear that says, "**Log in was Unsuccessful."** in bolded letters.
+![](https://github.com/caitthecaptain/Codepath-Week-8/blob/master/userenumeration.gif)
 
 
 
@@ -57,8 +58,11 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 
 **Vulnerability #2: Insecure Direct Object Reference (IDOR)**
-- 
-![]()
+- With this vulnerability, there are two salesperson accounts that are not visible to the public. 
+- By logging in, we see that they have the ID numbers of 10 and 11.
+- Go to the website (you do not have to log in) and click on "Find a Salesperson."
+- Click on any of them, and replace the id # with 10 or 11 to see ones that you should not!
+![](https://github.com/caitthecaptain/Codepath-Week-8/blob/master/idor.gif)
 
 
 
