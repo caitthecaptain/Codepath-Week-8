@@ -84,9 +84,8 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Notes
 
-- I found the Blue vulnerabilities to be the most simple. I found both of those within one hour.
-- The hardest/ most time-consuming vulnerability to find was the CSRF. I spent about two hours on that one alone.
 - The Codepath hints that were given were INCREDIBLY helpful.
+- I found this entire exercise to be very helpful in increasing my hacking skills!
 
 ## Resources
 - GIFs created with [LiceCap](http://www.cockos.com/licecap/)
