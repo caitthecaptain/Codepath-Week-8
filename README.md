@@ -52,8 +52,11 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 ## Red
 
 **Vulnerability #1: Cross-Site Request Forgery (CSRF)**- 
-- 
-![]()
+- With this vulnerability, CSRF attacks against an admin are possible. 
+- Log in to the site as an admin, and open an HTML file that you create.
+- The CSRF attack will change the name of a person in the "Users" tab.
+![](https://github.com/caitthecaptain/Codepath-Week-8/blob/master/csrf.gif)
+<p><img src="https://github.com/caitthecaptain/Codepath-Week-8/blob/master/csrf.html" alt="View my HTML file!"></p>
 
 
 
@@ -69,4 +72,5 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 
 ## Notes
 
-Describe any challenges encountered while doing the work
+- I found the Blue vulnerabilities to be the most simple. The hardest/ most time-consuming one for me was the CSRF.
+- The Codepath hints that were given were INCREDIBLY helpful.
